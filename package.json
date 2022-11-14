@@ -1,0 +1,44 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bitskins-api": "^2.0.1",
+    "body-parser": "^1.19.0",
+    "fs": "0.0.2",
+    "ioredis": "^3.2.2",
+    "log4js": "^2.11.0",
+    "log4js-extend": "^0.2.1",
+    "mathjs": "^3.20.2",
+    "md5": "*",
+    "mysql": "^2.18.1",
+    "needle": "^2.4.1",
+    "pm2": "^2.10.4",
+    "random-js": "^2.1.0",
+    "randomstring": "*",
+    "request": "^2.88.2",
+    "requestify": "^0.2.5",
+    "sha256": "*",
+    "socket.io": "^2.3.0",
+    "steam-totp": "^2.1.1",
+    "steam-tradeoffer-manager": "^2.10.1",
+    "steam-user": "^3.29.3",
+    "steamcommunity": "^3.41.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collm109/csgoturbo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collm109/csgoturbo/issues"
+  },
+  "homepage": "https://github.com/collm109/csgoturbo#readme"
+}
